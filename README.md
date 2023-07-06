@@ -26,7 +26,9 @@ Tecnologias Utilizadas
 
 ### O projeto faz uso das seguintes tecnologias:
 
-Firebase Realtime Database: Utilizado para armazenar e sincronizar os dados de temperatura em tempo real.
-ESP (microcontrolador): Responsável pela coleta dos dados de temperatura e envio para o Firebase.
-Sensor de temperatura: Dispositivo conectado ao ESP que captura as temperaturas ambientais.
-Plataforma Web: Desenvolvida com tecnologias como HTML, CSS e JavaScript e React.js, proporcionando uma interface interativa para visualização e análise dos dados coletados.
+- Firebase Realtime Database: Utilizado para armazenar e sincronizar os dados de temperatura em tempo real.
+- ESP (microcontrolador): Responsável pela coleta dos dados de temperatura e envio para o Firebase.
+- Sensor de temperatura: Dispositivo conectado ao ESP que captura as temperaturas ambientais.
+- Plataforma Web: Desenvolvida com tecnologias como HTML, CSS e JavaScript e React.js, proporcionando uma interface interativa para visualização e análise dos dados coletados.
+
+Para vincular o Firebase ao projeto
