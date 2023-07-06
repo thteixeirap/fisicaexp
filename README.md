@@ -37,6 +37,8 @@ Para vincular o firebase na plataforma, alguns dados terão que ser modificados,
 
 https://github.com/thteixeirap/fisicaexp/assets/78819692/a48ecf10-5047-469c-83d9-3ccecb6eab80
 
+- Feito isso, basta substituir as informações dentro do arquivo authFirebase.ts 
+
 
 
 
