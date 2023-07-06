@@ -31,5 +31,12 @@ export const UniqueChart = styled.div`
 `
 
 export const ContainerTable = styled.div`
-  width: 45vw ;
+  width: 80vw ;
+  /* height: 10vw; */
+  padding: 25px;
+  /* text-align: center; */
+  font-size: 1.2em;
+  font-size: larger;
+  color: #000;
+  background-color: white;
 `

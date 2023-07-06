@@ -29,7 +29,6 @@ export const Chart = () => {
     ...regressionChart(),
   });
 
-
   const {
     realTime,
     chartUseRefTemp,
@@ -39,9 +38,8 @@ export const Chart = () => {
     VirtuosoTableComponents,
     fixedHeaderContent,
     rowContent,
-    returnTable
+    returnTable,
   } = addSeriesInChart();
-
 
   realTime();
 
@@ -83,16 +81,32 @@ export const Chart = () => {
       </Buttons>
       <>
         <ContainerTable>
-          {/* <Paper style={{ height: 300, width: "100%" }}>
-            
-            <TableVirtuoso
-            data={validar}
-            components={VirtuosoTableComponents}
-            fixedHeaderContent={fixedHeaderContent}
-            itemContent={rowContent}
-            />
-          </Paper> */}
-          {returnTable()}
+          <h2>Regressão Linear</h2>
+          A regressão linear dos mínimos quadrados é uma técnica estatística
+          utilizada para modelar a relação entre uma variável dependente e uma
+          ou mais variáveis independentes. No caso da regressão linear simples,
+          há apenas uma variável independente. Essa técnica é amplamente
+          utilizada para análise e previsão de dados em diversos campos,
+          incluindo ciências sociais, econômicas e científicas. A ideia por trás
+          da regressão linear dos mínimos quadrados é encontrar a linha reta que
+          melhor se ajusta aos dados observados, minimizando a soma dos
+          quadrados dos erros entre os valores previstos pela linha de regressão
+          e os valores reais. Essa linha de regressão é representada por uma
+          equação na forma y = mx + b, onde "y" é a variável dependente (nesse
+          caso, a temperatura), "x" é a variável independente (por exemplo, o
+          tempo) e "m" e "b" são os coeficientes da regressão. Ao traçar o
+          gráfico com a temperatura e a linha de regressão, você poderá observar
+          visualmente a relação entre as variáveis e a qualidade do ajuste. Se a
+          linha de regressão for uma boa representação dos dados, os pontos
+          observados devem estar próximos a ela. Se houver uma dispersão
+          significativa em torno da linha, pode indicar uma relação mais
+          complexa ou outros fatores que não estão sendo considerados pelo
+          modelo linear simples. É importante lembrar que a regressão linear dos
+          mínimos quadrados pressupõe que a relação entre as variáveis seja
+          linear e que os erros de medição sejam aleatórios e independentes.
+          Além disso, é necessário analisar os resultados estatísticos, como o
+          coeficiente de determinação (R²), para avaliar a qualidade do ajuste e
+          a significância estatística dos coeficientes da regressão.
         </ContainerTable>
       </>
     </Main>
